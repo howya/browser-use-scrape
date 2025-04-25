@@ -4,7 +4,7 @@ This script reads a source CSV file containing website details and credentials a
 
 ## IMPORTANT
 
-* browser-use is early release, still buggy with known issues
+* browser-use is early release (0.1.41), still buggy, with known issues
 * It is quite slow, they are currently working on caching mechanisms to improve performance
 * Although the username / password are never sent to the LLM, if they appear on the website / login screen in clear text they will be sent. This also applies to any other information visible on the screen. Use a reputable LLM that does not train on your prompts, or host your own LLM
 * There is a known issue when using obfuscated username / password that stops the controller from extracting formatted output, as such it is not currently possible to extract website data AND use obfuscation in this release
