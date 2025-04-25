@@ -66,7 +66,7 @@ Test 2,https://examplefile.com/,test,test,Download the smallest txt file.
 | `status`      | The status of the processed row.             | `Success OR failure reason`           |
 
 
-**Example `output_[timestamp].csv` (contents will vary based on processing):**
+**Example `output.csv` (contents will vary based on processing):**
 
 ```csv
 siteName,siteURL,status
